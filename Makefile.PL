@@ -15,11 +15,12 @@ WriteMakefile(
         'ExtUtils::MakeMaker' => 0,
     },
     BUILD_REQUIRES => {
-        'Test::More' => 0,
-	'XML::Simple' => 0,
-	'LWP::UserAgent' => 0,
-	'Time::Local' => 0,
-	'Moose' => 0,
+        'Test::More'            => 0,
+	    'XML::Simple'           => 0,
+	    'LWP::UserAgent'        => 0,
+	    'Time::Local'           => 0,
+	    'Moose'                 => 0,
+        'namespace::autoclean'  => 0,
     },
     PREREQ_PM => {
         #'ABC'              => 1.6,
