@@ -21,11 +21,11 @@ EveOnline::Api - the Perl version of the Eve Online API system.
 
 =head1 VERSION
 
-Version 0.02
+Version 0.051
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.051';
 
 has 'apiroot'   =>  (
     is      =>  'rw',
